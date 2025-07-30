@@ -3,18 +3,28 @@ from setuptools import setup, find_packages
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-with open("requirements.txt", "r", encoding="utf-8") as fh:
-    requirements = fh.read().splitlines()
+# Define dependencies directly
+requirements = [
+    "rapidfuzz",
+    "sentence-transformers>=2.2.2",
+    "huggingface-hub<0.14.0",
+    "transformers<4.30.0",
+    "tqdm",
+    "numpy",
+    "pandas",
+    "torch",
+    "whoosh"
+]
 
 setup(
     name="bible-search",
     version="0.1.0",
     author="Mahboob",
-    author_email="your-email@example.com",
+    author_email="siroosab@example.com",
     description="Advanced Bible Search Library with fuzzy and semantic search capabilities",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/bible-search",
+    url="https://github.com/siroosab/bible-search",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
