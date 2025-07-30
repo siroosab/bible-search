@@ -1,0 +1,32 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Environments
+env/
+venv/
+ENV/
+
+# Database
+*.db
+*.sqlite3
+
+# Pre-computed embeddings
+*.pkl
+
+# IDE
+.idea/
+.vscode/
+
+# Cache
+.cache/
+
+# Logs
+*.log
