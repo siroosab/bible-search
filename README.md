@@ -27,10 +27,13 @@ A comprehensive Bible text search library that combines multiple advanced search
 
 ```bash
 # Install directly from GitHub
-pip install git+https://github.com/yourusername/bible-search.git
+pip install adv-bible-search
+
+# Or install directly from GitHub
+pip install git+https://github.com/siroosab/bible-search.git
 
 # Or clone and install locally
-git clone https://github.com/yourusername/bible-search.git
+git clone https://github.com/siroosab/bible-search.git
 cd bible-search
 pip install -e .
 ```

@@ -17,7 +17,7 @@ requirements = [
 ]
 
 setup(
-    name="bible-search",
+    name="adv-bible-search",
     version="0.1.0",
     author="Mahboob",
     author_email="siroosab@example.com",
