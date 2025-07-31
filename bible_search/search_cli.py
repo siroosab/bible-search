@@ -11,7 +11,7 @@ import logging
 from pathlib import Path
 from typing import List, Dict, Any
 
-from bible_search import BibleSearcher, SearchType
+from . import BibleSearcher, SearchType
 
 def setup_logging():
     """Set up logging configuration"""

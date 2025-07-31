@@ -11,9 +11,9 @@ from enum import Enum
 import logging
 from pathlib import Path
 
-from database import BibleDatabase
-from fuzzy_search import FuzzySearcher
-from semantic_search import SemanticSearcher
+from .database import BibleDatabase
+from .fuzzy_search import FuzzySearcher
+from .semantic_search import SemanticSearcher
 
 # Configure logging
 logging.basicConfig(
