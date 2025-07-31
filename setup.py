@@ -18,7 +18,7 @@ requirements = [
 
 setup(
     name="adv-bible-search",
-    version="0.1.0",
+    version="0.1.1",
     author="Mahboob",
     author_email="siroosab@example.com",
     description="Advanced Bible Search Library with fuzzy and semantic search capabilities",
